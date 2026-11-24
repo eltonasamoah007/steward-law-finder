@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+/* Fonts: connected in layout.tsx */
+@theme inline {
+  --font-sans: var(--font-inter);
+  --font-serif: var(--font-source-serif);
+}
+
+/* Design system colors and shadows from the approved design */
+@theme {
+  --color-navy: #0b2a5b;
+  --color-brand: #2563eb;
+  --color-brand-dark: #1d4ed8;
+  --color-canvas: #f5f7fb;
+  --color-ink: #0f172a;
+  --color-muted: #64748b;
+  --color-gold: #c9a227;
+  --color-line: #e2e8f0;
+
+  --shadow-card: 0 1px 3px 0 rgba(11, 42, 91, 0.04), 0 1px 2px -1px rgba(11, 42, 91, 0.02);
+  --shadow-card-hover: 0 4px 6px -1px rgba(11, 42, 91, 0.06), 0 2px 4px -2px rgba(11, 42, 91, 0.04);
+}
